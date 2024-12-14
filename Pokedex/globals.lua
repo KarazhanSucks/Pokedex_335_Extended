@@ -318,6 +318,7 @@ Pokedex.Globals.Constants = {
 		[74856] = { name="Blazing Hippogryph",                 family=MF.Hippogryph,      speed=MS.Skill_310_60,   passengers=false },
 		[43927] = { name="Cenarion War Hippogryph",            family=MF.Hippogryph,      speed=MS.Flyer280,       passengers=false },
 		[66087] = { name="Silver Covenant Hippogryph",         family=MF.Hippogryph,      speed=MS.Flyer280,       passengers=false },
+		[80899] = { name="Corrupted Hippogryph",         	   family=MF.Hippogryph,      speed=MS.Skill_310_60,   passengers=false }, --Whitemane Frostmourne
 
 		[48778] = { name="Acherus Deathcharger",               family=MF.Horse,           speed=MS.Runner100,      passengers=false },
 		[66906] = { name="Argent Charger",                     family=MF.Horse,           speed=MS.Runner100,      passengers=false },
