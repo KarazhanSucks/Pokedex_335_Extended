@@ -1,0 +1,38 @@
+<Bindings>	
+  <Binding name="POKEDEXSUPERTOGGLE" header="POKEDEX">
+    Pokedex:SafeCall(Pokedex.SuperToggle)
+  </Binding>
+  <Binding name="POKEDEXTOGGLEMOUNT">
+    Pokedex:SafeCall(Pokedex.ToggleMount)
+  </Binding>
+  <Binding name="POKEDEXSUMMONMOUNT">
+    Pokedex:SafeCall(Pokedex.SummonMount,false,false)
+  </Binding>
+  <Binding name="POKEDEXDISMISSMOUNT">
+    Pokedex:SafeCall(Pokedex.DismissMount)
+  </Binding>
+  <Binding name="POKEDEXSUMMONNEXTMOUNT">
+    Pokedex:SafeCall(Pokedex.SummonMount,true,false)
+  </Binding>
+  <Binding name="POKEDEXSUMMONOTHERMOUNT">
+    Pokedex:SafeCall(Pokedex.SummonMount,false,true)
+  </Binding>
+  <Binding name="POKEDEXTOGGLECOMPANION">
+    Pokedex:SafeCall(Pokedex.ToggleCompanion)
+  </Binding>
+  <Binding name="POKEDEXSUMMONCOMPANION">
+    Pokedex:SafeCall(Pokedex.SummonCompanion,false)
+  </Binding>
+  <Binding name="POKEDEXDISMISSCOMPANION">
+    Pokedex:SafeCall(Pokedex.DismissCompanion)
+  </Binding>
+  <Binding name="POKEDEXSUMMONNEXTCOMPANION">
+    Pokedex:SafeCall(Pokedex.SummonCompanion,true)
+  </Binding>
+  <Binding name="POKEDEXSUMMONVENDOR">
+    Pokedex:SafeCall(Pokedex.SummonVendor)
+  </Binding>
+  <Binding name="POKEDEXCHANGETITLE">
+    Pokedex:SafeCall(Pokedex.ChangeTitle)
+  </Binding>
+</Bindings>

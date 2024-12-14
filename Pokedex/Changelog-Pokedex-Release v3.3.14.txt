@@ -1,0 +1,35 @@
+------------------------------------------------------------------------
+r82 | stencil | 2010-10-02 04:05:59 -0500 (Sat, 02 Oct 2010) | 1 line
+Changed paths:
+   A /tags/Release v3.3.14 (from /trunk:81)
+
+Tagging as Release v3.3.14
+------------------------------------------------------------------------
+r81 | stencil | 2010-09-29 06:33:31 -0500 (Wed, 29 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/Pokedex.toc
+   M /trunk/core.lua
+   M /trunk/globals.lua
+   M /trunk/locale/enUS.lua
+
+Cataclysm - support (and prefer) Abyssal Seahorse mount in Vashj'ir zones
+------------------------------------------------------------------------
+r79 | stencil | 2010-09-10 22:21:56 -0500 (Fri, 10 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/Pokedex.toc
+   M /trunk/core.lua
+
+When making the changes for the x-53 rocket to stop trying to use it as a ground mount I had to add a new speed classification to cover it. I forgot to update a chunk of code to understand what that classification meant and that appears to cause pokedex to crash. Doh! 
+------------------------------------------------------------------------
+r77 | stencil | 2010-09-02 01:59:57 -0500 (Thu, 02 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/Pokedex.toc
+
+update toc
+------------------------------------------------------------------------
+r76 | stencil | 2010-09-02 01:56:10 -0500 (Thu, 02 Sep 2010) | 1 line
+Changed paths:
+   M /trunk/globals.lua
+
+Fix a bug with the X-53 rocket.
+------------------------------------------------------------------------
