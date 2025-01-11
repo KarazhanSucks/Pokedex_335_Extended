@@ -231,6 +231,7 @@ Pokedex.Globals.Constants = {
 	-- [spellId] = { name=str, family=MF, speed=MS, passengers=bool }
 	rgMountAttributes = {
 		[40192] = { name="Ashes of Al'ar",                     family=MF.Unsorted,        speed=MS.Flyer310,       passengers=false },
+		[80910] = { name="Dark Phoenix",         	           family=MF.Unsorted,        speed=MS.Skill_310_60,   passengers=false }, --Whitemane Frostmourne
 		[65917] = { name="Magic Rooster",                      family=MF.Unsorted,        speed=MS.Runner100,      passengers=false },
 		[63796] = { name="Mimiron's Head",                     family=MF.Unsorted,        speed=MS.Flyer310,       passengers=false },
 		[41252] = { name="Raven Lord",                         family=MF.Unsorted,        speed=MS.Runner100,      passengers=false },
@@ -261,6 +262,7 @@ Pokedex.Globals.Constants = {
 		[69395] = { name="Onyxian Drake",                      family=MF.Drake,           speed=MS.Flyer310,       passengers=false },
 		[59570] = { name="Red Drake",                          family=MF.Drake,           speed=MS.Flyer280,       passengers=false },
 		[59571] = { name="Twilight Drake",                     family=MF.Drake,           speed=MS.Flyer280,       passengers=false },
+		[80920] = { name="Festering Emerald Drake",            family=MF.Drake,           speed=MS.Skill_310_60,   passengers=false }, --Whitemane Frostmourne
 
 		[41514] = { name="Azure Netherwing Drake",             family=MF.Drake,           speed=MS.Flyer280,       passengers=false },
 		[41515] = { name="Cobalt Netherwing Drake",            family=MF.Drake,           speed=MS.Flyer280,       passengers=false },
