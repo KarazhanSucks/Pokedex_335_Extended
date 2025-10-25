@@ -86,6 +86,7 @@ local rgstrMountSpeeds = {
 	"Swimmer",       -- mounts that have faster swim speed like the Sea Turtle
 	"Vashjir",       -- Vashj'ir seahorse mounts
 	"Qiraji",        -- Qiraji scarab mounts
+	"Naxx",          -- FM Naxx Mounts
 	"Unknown",       -- mounts we failed to identify
 
 -- Complex Mount Speeds - these will always be decomposed into one or more Standard Speeds
@@ -203,8 +204,8 @@ Pokedex.Globals.Constants = {
 	rgstrMountSpeeds = rgstrMountSpeeds,
 	rgstrMountFamilies = rgstrMountFamilies,
 
-	rgstrMountSpeedDescsShort = { "Flyers", "280+", "Runners", "310", "280", "150", "100", "60", "0", L["Swimmers"], L["Vashj'ir Seahorses"], L["Qiraji Scarabs"], L["Unidentified Mounts"] },
-	rgstrMountSpeedDescs = { L["All Flyers"], L["Fast Flyers"], L["All Runners"], L["Extremely Fast Flyers"], L["Very Fast Flyers"], L["Flyers"], L["Very Fast Runners"], L["Runners"], L["Slow Runners"], L["Swimmers"], L["Vashj'ir Seahorses"], L["Qiraji Scarabs"], L["Unidentified Mounts"] },
+	rgstrMountSpeedDescsShort = { "Flyers", "280+", "Runners", "310", "280", "150", "100", "60", "0", L["Swimmers"], L["Vashj'ir Seahorses"], L["Qiraji Scarabs"], L["Naxx Horses"], L["Unidentified Mounts"] },
+	rgstrMountSpeedDescs = { L["All Flyers"], L["Fast Flyers"], L["All Runners"], L["Extremely Fast Flyers"], L["Very Fast Flyers"], L["Flyers"], L["Very Fast Runners"], L["Runners"], L["Slow Runners"], L["Swimmers"], L["Vashj'ir Seahorses"], L["Qiraji Scarabs"], L["Naxx Horses"], L["Unidentified Mounts"] },
 
 	rgstrSkillRankName = { [SL.GrandMaster] = "Grand Master", [SL.Master] = "Master", [SL.Artisan] = "Artisan", [SL.Expert] = "Expert", [SL.Journeyman] = "Journyeman", [SL.Apprentice] = "Apprentice", [SL.None] = "None" },
 	rgRidingIds = { [892] = SL.Artisan, [890] = SL.Expert, [889] = SL.Journeyman, [891] = SL.Apprentice }, -- key is associated achievement
@@ -482,6 +483,7 @@ Pokedex.Globals.Constants = {
 		[26056] = { name="Green Qiraji Battle Tank",           family=MF.Scarab,          speed=MS.Qiraji,         passengers=false },
 		[26054] = { name="Red Qiraji Battle Tank",             family=MF.Scarab,          speed=MS.Qiraji,         passengers=false },
 		[26055] = { name="Yellow Qiraji Battle Tank",          family=MF.Scarab,          speed=MS.Qiraji,         passengers=false },
+		[29059] = { name="Naxxramas Deathcharger",             family=MF.Naxx,            speed=MS.Naxx,           passengers=false },
 
 		[75207] = { name="Abyssal Seahorse",                   family=MF.Seahorse,        speed=MS.Vashjir,        passengers=false },
 

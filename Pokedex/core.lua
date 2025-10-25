@@ -626,6 +626,7 @@ end
 function Pokedex:FilterMountSpeeds(fOther)
 	local rgMSFiltered = {};
 	local fQiraji = false;
+	local fNaxx = false;
 	local fSwimming = IsSwimming();
 
 	-- check if we can fly - cover 99% of situations
@@ -635,6 +636,8 @@ function Pokedex:FilterMountSpeeds(fOther)
 	SetMapToCurrentZone();
 	local continent = GetCurrentMapContinent();
 
+
+	if (-1 == continent) then fNaxx = strfind(BZ["Naxxramas"], GetZoneText()); end
 	if (1 == continent) then fQiraji = strfind(BZ["Ahn'Qiraj"], GetZoneText()); end
 	if (2 == continent) then 
 		local zone = GetRealZoneText();
@@ -668,6 +671,10 @@ function Pokedex:FilterMountSpeeds(fOther)
 	if (fSwimming) then
 		if (fVashjir and gv.rgMountsByType[MS.Vashjir] ~= nil) then rgMSFiltered[#rgMSFiltered+1] = MS.Vashjir end
 		if              (gv.rgMountsByType[MS.Swimmer] ~= nil) then rgMSFiltered[#rgMSFiltered+1] = MS.Swimmer end
+	end
+
+	if (fNaxx and gv.rgMountsByType[MS.Naxx] ~= nil) then 
+		rgMSFiltered[#rgMSFiltered+1] = MS.Naxx
 	end
 
 	if (fQiraji and gv.rgMountsByType[MS.Qiraji] ~= nil) then 
@@ -1090,6 +1097,7 @@ function Pokedex:DecomposeMountSpeeds()
 	gv.rgDMS[MS.Swimmer]       = { flying = MS.None,      running = MS.None,       special = MS.Swimmer };
 	gv.rgDMS[MS.Vashjir]       = { flying = MS.None,      running = MS.None,       special = MS.Vashjir };
 	gv.rgDMS[MS.Qiraji]        = { flying = MS.None,      running = MS.None,       special = MS.Qiraji  };
+	gv.rgDMS[MS.Naxx]          = { flying = MS.None,      running = MS.None,       special = MS.Naxx  };
 	gv.rgDMS[MS.Unknown]       = { flying = MS.None,      running = MS.None,       special = MS.Unknown };
 	gv.rgDMS[MS.Black_Scarab]  = { flying = MS.None,      running = Runner100(),   special = MS.Qiraji  };
 	gv.rgDMS[MS.Sea_Turtle]    = { flying = MS.None,      running = Runner0(),     special = MS.Swimmer };
