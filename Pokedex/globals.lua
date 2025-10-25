@@ -129,6 +129,7 @@ local rgstrMountFamilies = {
 	"Rocket",
 	"Saber",
 	"Scarab",
+	"Naxx",
 	"Seahorse",
 	"Talbuk",
 	"Turtle",
