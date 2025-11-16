@@ -45,6 +45,7 @@ L["Qiraji Scarabs"] = true
 L["All Flyers"] = true
 L["Fast Flyers"] = true
 L["All Runners"] = true
+L["Naxx Horses"] = true
 
 -- Mount property tooltip clues
 L["very fast"] = true
