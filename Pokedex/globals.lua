@@ -238,6 +238,7 @@ Pokedex.Globals.Constants = {
 		[63796] = { name="Mimiron's Head",                     family=MF.Unsorted,        speed=MS.Flyer310,       passengers=false },
 		[41252] = { name="Raven Lord",                         family=MF.Unsorted,        speed=MS.Runner100,      passengers=false },
 		[49322] = { name="Swift Zhevra",                       family=MF.Unsorted,        speed=MS.Runner100,      passengers=false },
+		[81000] = { name="Widow's Undercrawler",               family=MF.Unsorted,        speed=MS.Runner100,      passengers=false },
 
 		[43688] = { name="Amani War Bear",                     family=MF.Bear,            speed=MS.Runner100,      passengers=false },
 		[60114] = { name="Armored Brown Bear",                 family=MF.Bear,            speed=MS.Runner100,      passengers=false },
